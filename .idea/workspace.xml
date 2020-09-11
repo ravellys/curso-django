@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71811b43-7131-4c19-8a6b-d4fe50d5ff60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +131,7 @@
       <workItem from="1599712757768" duration="2573000" />
       <workItem from="1599786533625" duration="634000" />
       <workItem from="1599788253272" duration="368000" />
-      <workItem from="1599788912153" duration="11343000" />
+      <workItem from="1599788912153" duration="11837000" />
     </task>
     <task id="LOCAL-00001" summary="add travis CI and Codecov">
       <created>1599701015914</created>
@@ -237,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599805128342</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Lingua e Fuso Horário">
+      <created>1599805673248</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599805673248</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +267,8 @@
     <MESSAGE value="decouple django" />
     <MESSAGE value="configuração de chave secreta" />
     <MESSAGE value="Testando Postgresql no Travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testando Postgresql no Travis" />
+    <MESSAGE value="Lingua e Fuso Horário" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lingua e Fuso Horário" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599712674093">
@@ -270,10 +279,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599796855083" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599805124837">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599805670296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599805124837" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599805670296" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1599790788870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -282,22 +291,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599712554185" />
-    <state width="1323" height="246" key="GridCell.Tab.0.bottom" timestamp="1599805628128">
+    <state width="1323" height="246" key="GridCell.Tab.0.bottom" timestamp="1599805777490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599805628128" />
-    <state width="1323" height="246" key="GridCell.Tab.0.center" timestamp="1599805628128">
+    <state width="1323" height="246" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599805777490" />
+    <state width="1323" height="246" key="GridCell.Tab.0.center" timestamp="1599805777490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599805628128" />
-    <state width="1323" height="246" key="GridCell.Tab.0.left" timestamp="1599805628127">
+    <state width="1323" height="246" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599805777490" />
+    <state width="1323" height="246" key="GridCell.Tab.0.left" timestamp="1599805777490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599805628127" />
-    <state width="1323" height="246" key="GridCell.Tab.0.right" timestamp="1599805628128">
+    <state width="1323" height="246" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599805777490" />
+    <state width="1323" height="246" key="GridCell.Tab.0.right" timestamp="1599805777490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599805628128" />
+    <state width="1323" height="246" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599805777490" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1599789746586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -306,10 +315,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790764613" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599805132020">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599805678809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599805132020" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599805678809" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_status_code.coverage" NAME="pytest for test_home.test_status_code Coverage Results" MODIFIED="1599805357731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
