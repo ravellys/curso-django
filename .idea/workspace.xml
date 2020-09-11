@@ -132,7 +132,7 @@
       <workItem from="1599712757768" duration="2573000" />
       <workItem from="1599786533625" duration="634000" />
       <workItem from="1599788253272" duration="368000" />
-      <workItem from="1599788912153" duration="1869000" />
+      <workItem from="1599788912153" duration="3579000" />
     </task>
     <task id="LOCAL-00001" summary="add travis CI and Codecov">
       <created>1599701015914</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599790335053</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="corrigido pytest-django para versao dev">
+      <created>1599790818741</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599790818741</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +228,8 @@
     <MESSAGE value="criado app base" />
     <MESSAGE value="up" />
     <MESSAGE value="criada a infra de test com pytest-django" />
-    <option name="LAST_COMMIT_MESSAGE" value="criada a infra de test com pytest-django" />
+    <MESSAGE value="corrigido pytest-django para versao dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrigido pytest-django para versao dev" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599712674093">
@@ -232,10 +240,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790162938" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599790331185">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599790815720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599790331185" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599790815720" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1599790788870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -244,22 +252,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599712554185" />
-    <state width="1323" height="127" key="GridCell.Tab.0.bottom" timestamp="1599790781748">
+    <state width="1323" height="127" key="GridCell.Tab.0.bottom" timestamp="1599791786229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="127" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599790781748" />
-    <state width="1323" height="127" key="GridCell.Tab.0.center" timestamp="1599790781748">
+    <state width="1323" height="127" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599791786229" />
+    <state width="1323" height="127" key="GridCell.Tab.0.center" timestamp="1599791786228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="127" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599790781748" />
-    <state width="1323" height="127" key="GridCell.Tab.0.left" timestamp="1599790781747">
+    <state width="1323" height="127" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599791786228" />
+    <state width="1323" height="127" key="GridCell.Tab.0.left" timestamp="1599791786228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="127" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599790781747" />
-    <state width="1323" height="127" key="GridCell.Tab.0.right" timestamp="1599790781748">
+    <state width="1323" height="127" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599791786228" />
+    <state width="1323" height="127" key="GridCell.Tab.0.right" timestamp="1599791786228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="127" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599790781748" />
+    <state width="1323" height="127" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599791786228" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1599789746586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -268,10 +276,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790764613" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599790349692">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599790822909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599790349692" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599790822909" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_status_code.coverage" NAME="pytest for test_home.test_status_code Coverage Results" MODIFIED="1599790781728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
