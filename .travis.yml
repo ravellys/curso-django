@@ -13,6 +13,7 @@ env:
 install:
   - pip install pipenv
   - pipenv sync -d
+  - pipenv install -d pytest-django
 
 script:
   - pipenv run flake8 .
