@@ -62,7 +62,7 @@
       <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_home.test_status_code">
+  <component name="RunManager" selected="Django Server.django">
     <configuration name="django" type="Python.DjangoServer" factoryName="Django server">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +126,7 @@
       <workItem from="1599786533625" duration="634000" />
       <workItem from="1599788253272" duration="368000" />
       <workItem from="1599788912153" duration="12630000" />
-      <workItem from="1599874902604" duration="4729000" />
+      <workItem from="1599874902604" duration="5061000" />
     </task>
     <task id="LOCAL-00001" summary="add travis CI and Codecov">
       <created>1599701015914</created>
@@ -261,7 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599886397216</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="collectfast">
+      <created>1599886735189</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599886735189</updated>
+    </task>
+    <task id="LOCAL-00021" summary="collectfast">
+      <created>1599886813673</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599886813673</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +302,8 @@
     <MESSAGE value="adc file .flake8" />
     <MESSAGE value="modify before_script" />
     <MESSAGE value="Arquivos Estáticos e Upload de Arquivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arquivos Estáticos e Upload de Arquivos" />
+    <MESSAGE value="collectfast" />
+    <option name="LAST_COMMIT_MESSAGE" value="collectfast" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599712674093">
@@ -299,10 +314,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599796855083" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599886391821">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599886810014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599886391821" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599886810014" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1599790788870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -311,22 +326,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599712554185" />
-    <state width="1323" height="246" key="GridCell.Tab.0.bottom" timestamp="1599825062592">
+    <state width="1323" height="246" key="GridCell.Tab.0.bottom" timestamp="1599886919253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599825062592" />
-    <state width="1323" height="246" key="GridCell.Tab.0.center" timestamp="1599825062592">
+    <state width="1323" height="246" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599886919253" />
+    <state width="1323" height="246" key="GridCell.Tab.0.center" timestamp="1599886919253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599825062592" />
-    <state width="1323" height="246" key="GridCell.Tab.0.left" timestamp="1599825062592">
+    <state width="1323" height="246" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599886919253" />
+    <state width="1323" height="246" key="GridCell.Tab.0.left" timestamp="1599886919252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599825062592" />
-    <state width="1323" height="246" key="GridCell.Tab.0.right" timestamp="1599825062592">
+    <state width="1323" height="246" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599886919252" />
+    <state width="1323" height="246" key="GridCell.Tab.0.right" timestamp="1599886919253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599825062592" />
+    <state width="1323" height="246" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599886919253" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1599789746586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -335,10 +350,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790764613" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599886403283">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599886816513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599886403283" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599886816513" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_status_code.coverage" NAME="pytest for test_home.test_status_code Coverage Results" MODIFIED="1599805357731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
