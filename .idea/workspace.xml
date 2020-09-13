@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71811b43-7131-4c19-8a6b-d4fe50d5ff60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pypro/base/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="71811b43-7131-4c19-8a6b-d4fe50d5ff60" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +128,7 @@
       <workItem from="1599788253272" duration="368000" />
       <workItem from="1599788912153" duration="12630000" />
       <workItem from="1599874902604" duration="6761000" />
-      <workItem from="1599959411691" duration="9377000" />
+      <workItem from="1599959411691" duration="9799000" />
     </task>
     <task id="LOCAL-00001" summary="add travis CI and Codecov">
       <created>1599701015914</created>
@@ -301,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599887881459</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Migrações e Customização de Usuário">
+      <created>1599973227268</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1599973227268</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +328,8 @@
     <MESSAGE value="collectfast" />
     <MESSAGE value="collectfast2" />
     <MESSAGE value="collectfast3" />
-    <option name="LAST_COMMIT_MESSAGE" value="collectfast3" />
+    <MESSAGE value="Migrações e Customização de Usuário" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrações e Customização de Usuário" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1599887122719">
@@ -346,10 +344,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599796855083" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599887878246">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599973222040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599887878246" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599973222040" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1599790788870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -358,22 +356,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599967940055" />
-    <state width="1323" height="246" key="GridCell.Tab.0.bottom" timestamp="1599971842423">
+    <state width="1323" height="246" key="GridCell.Tab.0.bottom" timestamp="1599973445549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599971842423" />
-    <state width="1323" height="246" key="GridCell.Tab.0.center" timestamp="1599971842423">
+    <state width="1323" height="246" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599973445549" />
+    <state width="1323" height="246" key="GridCell.Tab.0.center" timestamp="1599973445549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599971842423" />
-    <state width="1323" height="246" key="GridCell.Tab.0.left" timestamp="1599971842423">
+    <state width="1323" height="246" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599973445549" />
+    <state width="1323" height="246" key="GridCell.Tab.0.left" timestamp="1599973445549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599971842423" />
-    <state width="1323" height="246" key="GridCell.Tab.0.right" timestamp="1599971842423">
+    <state width="1323" height="246" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599973445549" />
+    <state width="1323" height="246" key="GridCell.Tab.0.right" timestamp="1599973445549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599971842423" />
+    <state width="1323" height="246" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599973445549" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1599967996241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -386,10 +384,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790764613" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599887884675">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599973231469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599887884675" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599973231469" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599970591624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
