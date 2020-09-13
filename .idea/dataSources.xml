@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="" uuid="26f1e33e-a023-4483-9b41-4306203682b2">
+    <data-source source="LOCAL" name="SQLite - .coverage" uuid="26f1e33e-a023-4483-9b41-4306203682b2">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\ravellys\PycharmProjects\curso-django\.coverage</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="pypro.sqlite" uuid="93f20a03-bce4-474a-829d-26387d116d7d">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\ravellys\PycharmProjects\curso-django\db.sqlite3</jdbc-url>
     </data-source>
   </component>
 </project>
