@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71811b43-7131-4c19-8a6b-d4fe50d5ff60" name="Default Changelist" comment="" />
+    <list default="true" id="71811b43-7131-4c19-8a6b-d4fe50d5ff60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/templates/base/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,16 +52,19 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="7" />
+        <entry key="$PROJECT_DIR$" value="b8e107c766d5a10631f344583534ef2eae24a1d1" />
       </map>
     </option>
-    <option name="PUSH_TAGS">
-      <GitPushTagMode />
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JupyterTrust" id="fe932f34-b5c8-41e2-987e-11af97b42aa9" />
   <component name="ProjectId" id="1hIwhWUgovvtWNoId709eh93PUT" />
@@ -43,7 +80,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pypro/settings.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pypro/base/static/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,7 +96,14 @@
     </force-push-targets>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\base\static\js" />
+      <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\base\static\css" />
+      <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\base\static" />
+      <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\base" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\base\templates\base" />
       <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro" />
     </key>
   </component>
@@ -108,6 +152,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_home.test_status_code" />
+        <item itemvalue="Python tests.pytest for test_home.test_status_code" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +175,7 @@
       <workItem from="1599874902604" duration="6761000" />
       <workItem from="1599959411691" duration="10680000" />
       <workItem from="1600047259696" duration="5337000" />
+      <workItem from="1600135518062" duration="3360000" />
     </task>
     <task id="LOCAL-00001" summary="add travis CI and Codecov">
       <created>1599701015914</created>
@@ -387,22 +433,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599967940055" />
-    <state width="1323" height="197" key="GridCell.Tab.0.bottom" timestamp="1600059697722">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1600138788394">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600059697722" />
-    <state width="1323" height="197" key="GridCell.Tab.0.center" timestamp="1600059697721">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600138788394" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1600138788394">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600059697721" />
-    <state width="1323" height="197" key="GridCell.Tab.0.left" timestamp="1600059697721">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600138788394" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1600138788394">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600059697721" />
-    <state width="1323" height="197" key="GridCell.Tab.0.right" timestamp="1600059697722">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600138788394" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1600138788394">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600059697722" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600138788394" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1599967996241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
