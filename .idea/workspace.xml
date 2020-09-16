@@ -2,39 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71811b43-7131-4c19-8a6b-d4fe50d5ff60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/templates/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/static/img/foto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/templates/base/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/django_assertions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/templates/base/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_home.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +59,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pypro/base/static/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pypro/base/static/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -97,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\base\static\img" />
       <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\base\static\js" />
       <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\base\static\css" />
       <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\base\static" />
@@ -132,6 +112,40 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_home.test_home" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_home.test_home&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_home.test_home_link" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_home.test_home_link&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_home.test_status_code" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,8 +163,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_home.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/base/tests/test_home.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_home.py" />
+        <item itemvalue="Python tests.pytest for test_home.test_home_link" />
+        <item itemvalue="Python tests.pytest for test_home.test_home" />
         <item itemvalue="Python tests.pytest for test_home.test_status_code" />
         <item itemvalue="Python tests.pytest for test_home.test_status_code" />
       </list>
@@ -175,7 +209,8 @@
       <workItem from="1599874902604" duration="6761000" />
       <workItem from="1599959411691" duration="10680000" />
       <workItem from="1600047259696" duration="5337000" />
-      <workItem from="1600135518062" duration="3360000" />
+      <workItem from="1600135518062" duration="15397000" />
+      <workItem from="1600237848898" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="add travis CI and Codecov">
       <created>1599701015914</created>
@@ -373,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600059694143</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="instalando arquivos estaticos">
+      <created>1600139060038</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1600139060038</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +423,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add travis CI and Codecov" />
     <MESSAGE value="pipenv install django&#10;pipenv install -d flake8" />
     <MESSAGE value="created files .pyup.yml and .travisci.yml" />
     <MESSAGE value="created pyup' badges" />
@@ -406,7 +447,8 @@
     <MESSAGE value="Migrações e Customização de Usuário" />
     <MESSAGE value="backup and debug" />
     <MESSAGE value="sentry" />
-    <option name="LAST_COMMIT_MESSAGE" value="sentry" />
+    <MESSAGE value="instalando arquivos estaticos" />
+    <option name="LAST_COMMIT_MESSAGE" value="instalando arquivos estaticos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1600055226813">
@@ -421,10 +463,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599796855083" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600059690771">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600139054550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600059690771" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600139054550" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1599790788870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -433,22 +475,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599967940055" />
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1600138788394">
+    <state width="1323" height="274" key="GridCell.Tab.0.bottom" timestamp="1600237098948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600138788394" />
-    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1600138788394">
+    <state width="1323" height="274" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600237098948" />
+    <state width="1323" height="274" key="GridCell.Tab.0.center" timestamp="1600237098948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600138788394" />
-    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1600138788394">
+    <state width="1323" height="274" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600237098948" />
+    <state width="1323" height="274" key="GridCell.Tab.0.left" timestamp="1600237098948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600138788394" />
-    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1600138788394">
+    <state width="1323" height="274" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600237098948" />
+    <state width="1323" height="274" key="GridCell.Tab.0.right" timestamp="1600237098948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600138788394" />
+    <state width="1323" height="274" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600237098948" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1599967996241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -461,10 +503,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790764613" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600059696479">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600139063598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600059696479" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600139063598" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599970591624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -479,7 +521,10 @@
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599970516918" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_status_code.coverage" NAME="pytest for test_home.test_status_code Coverage Results" MODIFIED="1599805357731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
+    <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_home_link.coverage" NAME="pytest for test_home.test_home_link Coverage Results" MODIFIED="1600230729699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
+    <SUITE FILE_PATH="coverage/curso_django$pytest_in_test_home_py.coverage" NAME="pytest in test_home.py Coverage Results" MODIFIED="1600232601651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
+    <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_status_code.coverage" NAME="pytest for test_home.test_status_code Coverage Results" MODIFIED="1600142480578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
+    <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_home.coverage" NAME="pytest for test_home.test_home Coverage Results" MODIFIED="1600142532437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
   </component>
   <component name="masterDetails">
     <states>
