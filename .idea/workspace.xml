@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71811b43-7131-4c19-8a6b-d4fe50d5ff60" name="Default Changelist" comment="" />
+    <list default="true" id="71811b43-7131-4c19-8a6b-d4fe50d5ff60" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,12 +170,29 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/base/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_home.py" />
         <item itemvalue="Python tests.pytest for test_home.test_home_link" />
         <item itemvalue="Python tests.pytest for test_home.test_home" />
-        <item itemvalue="Python tests.pytest for test_home.test_status_code" />
         <item itemvalue="Python tests.pytest for test_home.test_status_code" />
       </list>
     </recent_temporary>
@@ -198,7 +219,7 @@
       <workItem from="1600135518062" duration="15397000" />
       <workItem from="1600237848898" duration="3074000" />
       <workItem from="1600260963037" duration="4151000" />
-      <workItem from="1600273689123" duration="627000" />
+      <workItem from="1600273689123" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary="add travis CI and Codecov">
       <created>1599701015914</created>
@@ -452,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600274174525</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Entrega da Landing-Page">
+      <created>1600274432061</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1600274432061</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,10 +528,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599796855083" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600274167971">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600274428225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600274167971" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600274428225" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1599790788870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -512,22 +540,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599967940055" />
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1600274133075">
+    <state width="1323" height="165" key="GridCell.Tab.0.bottom" timestamp="1600276001719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600274133075" />
-    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1600274133074">
+    <state width="1323" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600276001719" />
+    <state width="1323" height="165" key="GridCell.Tab.0.center" timestamp="1600276001719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600274133074" />
-    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1600274133073">
+    <state width="1323" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600276001719" />
+    <state width="1323" height="165" key="GridCell.Tab.0.left" timestamp="1600276001719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600274133073" />
-    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1600274133074">
+    <state width="1323" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600276001719" />
+    <state width="1323" height="165" key="GridCell.Tab.0.right" timestamp="1600276001719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600274133074" />
+    <state width="1323" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600276001719" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1599967996241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -548,10 +576,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790764613" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600274418140">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600274434206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600274418140" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600274434206" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600239813787">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -567,6 +595,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_home_link.coverage" NAME="pytest for test_home.test_home_link Coverage Results" MODIFIED="1600230729699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
+    <SUITE FILE_PATH="coverage/curso_django$pytest_in_tests.coverage" NAME="pytest in tests Coverage Results" MODIFIED="1600275716729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_in_test_home_py.coverage" NAME="pytest in test_home.py Coverage Results" MODIFIED="1600238428054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_status_code.coverage" NAME="pytest for test_home.test_status_code Coverage Results" MODIFIED="1600142480578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_home.coverage" NAME="pytest for test_home.test_home Coverage Results" MODIFIED="1600142532437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
