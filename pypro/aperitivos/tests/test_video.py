@@ -18,4 +18,4 @@ def test_title_video(resp):
 
 
 def test_content_video(resp):
-    assert_contains(resp, '<iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"')
+    assert_contains(resp, '<iframe src="https://www.youtube.com/embed/aaK-H1EHmA4"')
