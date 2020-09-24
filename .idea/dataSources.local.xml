@@ -2,7 +2,10 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="SQLite - .coverage" uuid="26f1e33e-a023-4483-9b41-4306203682b2">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <database-info product="SQLite" version="3.31.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.31.1" dbms="SQLITE" exact-version="3.31.1" exact-driver-version="3.31">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <auth-provider>no-auth</auth-provider>
       <schema-mapping />
     </data-source>
@@ -16,6 +19,24 @@
       <schema-mapping>
         <introspection-scope>
           <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="PostgreSQL - postgres@localhost" uuid="2b62d3dc-4106-4a56-a8ff-a406a467f037">
+      <database-info product="PostgreSQL" version="12.4 (Debian 12.4-1.pgdg100+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="12.4" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>pythonpro</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="cursodjango">
+              <node kind="schema" negative="1" />
+            </node>
+            <node kind="database" qname="postgres" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>

@@ -13,5 +13,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\ravellys\PycharmProjects\curso-django\db.sqlite3</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - postgres@localhost" uuid="2b62d3dc-4106-4a56-a8ff-a406a467f037">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5434/postgres</jdbc-url>
+    </data-source>
   </component>
 </project>
