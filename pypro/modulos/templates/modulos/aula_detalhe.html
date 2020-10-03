@@ -1,0 +1,40 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}Python Pro - Video{% endblock title %}
+{% block description %}"Página de Videos"{% endblock description %}
+
+{% block body %}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="{{aula.modulo.get_absolute_url}}">{{ aula.modulo.title }}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ aula.title }}</li>
+  </ol>
+</nav>
+
+ <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+                        <h1>{{ aula.title | default:'Faltando Título' }}</h1>
+
+                        <div class="embed-responsive embed-responsive-16by9" >
+                            <iframe src="https://www.youtube.com/embed/{{ aula.v_id }}"
+                                    width="420" height="120" class="embed-responsive-item" allowfullscreen
+                                    frameborder="exit ng-show="showvideo"></iframe>
+                        </div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock body %}
+
+
+
