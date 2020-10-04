@@ -4,7 +4,7 @@ from pypro.modulos import facade
 
 
 def indice(request):
-    ctx = {'turma': facade.listar_modulos_com_aulas()}
+    ctx = {'modulos': facade.listar_modulos_com_aulas()}
     return render(request, 'modulos/indice.html', ctx)
 
 

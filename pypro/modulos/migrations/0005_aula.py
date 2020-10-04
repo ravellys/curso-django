@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('order', models.PositiveIntegerField(db_index=True, editable=False, verbose_name='order')),
                 ('title', models.CharField(max_length=64)),
                 ('slug', models.SlugField(unique=True)),
-                ('modulo', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='turma.modulo')),
+                ('modulo', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='modulos.modulo')),
             ],
             options={
                 'ordering': ('order',),
