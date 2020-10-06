@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71811b43-7131-4c19-8a6b-d4fe50d5ff60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pypro/turma/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turma/migrations/0002_criacao_matricula.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turma/migrations/0003_restricao_de_matricula_unica'.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/tests/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/migrations/0005_aula.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/migrations/0005_aula.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/turma/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/turma/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/turma/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/turma/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -86,7 +83,7 @@
       <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\modulos" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.django">
+  <component name="RunManager" selected="Docker.docker-compose.yml.database: Compose Deployment">
     <configuration name="django" type="Python.DjangoServer" factoryName="Django server">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,12 +201,12 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_modulo_indice.test_indice_disponivel" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.test_login_redirect" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\ravellys\PycharmProjects\curso-django\.venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/modulos/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -227,16 +224,16 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
-      <option name="_new_target" value="&quot;test_modulo_indice.test_indice_disponivel&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_login_redirect&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_modulo_indice.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\ravellys\PycharmProjects\curso-django\.venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/modulos/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -254,7 +251,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/modulos/tests/test_modulo_indice.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/base/tests/test_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -344,18 +341,18 @@
       <item itemvalue="Docker.docker-compose.yml.database: Compose Deployment" />
       <item itemvalue="Python tests.pytest migrations " />
       <item itemvalue="Python tests.pytest no migrations" />
-      <item itemvalue="Python tests.pytest for test_modulo_indice.test_indice_disponivel" />
-      <item itemvalue="Python tests.pytest in test_modulo_indice.py" />
       <item itemvalue="Python tests.pytest for pypro.turma.tests.test_indice.test_status_code" />
       <item itemvalue="Python tests.pytest in tests" />
+      <item itemvalue="Python tests.pytest in test_login.py" />
+      <item itemvalue="Python tests.pytest for test_login.test_login_redirect" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Docker.docker-compose.yml.database: Compose Deployment" />
+        <item itemvalue="Python tests.pytest for test_login.test_login_redirect" />
+        <item itemvalue="Python tests.pytest in test_login.py" />
+        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest for pypro.turma.tests.test_indice.test_status_code" />
-        <item itemvalue="Python tests.pytest in test_modulo_indice.py" />
-        <item itemvalue="Python tests.pytest for test_modulo_indice.test_indice_disponivel" />
       </list>
     </recent_temporary>
   </component>
@@ -398,14 +395,8 @@
       <workItem from="1601603656801" duration="4514000" />
       <workItem from="1601689710497" duration="6128000" />
       <workItem from="1601696245651" duration="2731000" />
-      <workItem from="1601738377174" duration="9626000" />
-    </task>
-    <task id="LOCAL-00002" summary="pipenv install django&#10;pipenv install -d flake8">
-      <created>1599701577949</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599701577949</updated>
+      <workItem from="1601738377174" duration="10293000" />
+      <workItem from="1601917286226" duration="5451000" />
     </task>
     <task id="LOCAL-00003" summary="created files .pyup.yml and .travisci.yml">
       <created>1599702583829</created>
@@ -743,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601697203129</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="BD">
+      <created>1601783465447</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1601783465448</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,7 +749,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="acrescentando endereço do heroku" />
     <MESSAGE value="criado app base" />
     <MESSAGE value="up" />
     <MESSAGE value="criada a infra de test com pytest-django" />
@@ -776,7 +773,8 @@
     <MESSAGE value="tmplats" />
     <MESSAGE value="testes com banco de dados" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="BD" />
+    <option name="LAST_COMMIT_MESSAGE" value="BD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="35" key="#Docker" timestamp="1600492875229">
@@ -795,6 +793,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="0" width="848" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600862574672" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601924716003">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1601924716003" />
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599796855083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -803,10 +805,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="452" y="181" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1600850331061" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1601697195360">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1601783460310">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601697195360" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601783460310" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1600276228280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -819,38 +821,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600858435746" />
-    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1601783386914">
+    <state width="1323" height="407" key="GridCell.Tab.0.bottom" timestamp="1601937634412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601783386914" />
-    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1601783386913">
+    <state width="1323" height="407" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601937634412" />
+    <state width="1323" height="407" key="GridCell.Tab.0.center" timestamp="1601937634412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601783386913" />
-    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1601783386913">
+    <state width="1323" height="407" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601937634412" />
+    <state width="1323" height="407" key="GridCell.Tab.0.left" timestamp="1601937634412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601783386913" />
-    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1601783386914">
+    <state width="1323" height="407" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601937634412" />
+    <state width="1323" height="407" key="GridCell.Tab.0.right" timestamp="1601937634412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601783386914" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1601024788780">
+    <state width="1323" height="407" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601937634412" />
+    <state width="1323" height="70" key="GridCell.Tab.1.bottom" timestamp="1601937633214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601024788780" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1601024788780">
+    <state width="1323" height="70" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601937633214" />
+    <state width="1323" height="70" key="GridCell.Tab.1.center" timestamp="1601937633201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601024788780" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1601024788780">
+    <state width="1323" height="70" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601937633201" />
+    <state width="1323" height="70" key="GridCell.Tab.1.left" timestamp="1601937633201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601024788780" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1601024788780">
+    <state width="1323" height="70" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601937633201" />
+    <state width="1323" height="70" key="GridCell.Tab.1.right" timestamp="1601937633202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601024788780" />
+    <state width="1323" height="70" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601937633202" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1600854337850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -871,10 +873,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790764613" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601697209654">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601783471215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601697209654" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601783471215" />
     <state x="581" y="224" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1600849517724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -883,10 +885,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="19" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1601694452935" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600400798582">
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601918184056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1600400798582" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1601918184056" />
     <state x="0" y="0" width="1339" height="715" key="dock-window-1" timestamp="1601696545014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -926,6 +928,7 @@
     <SUITE FILE_PATH="coverage/curso_django$pytest_in_test_indice_py.coverage" NAME="pytest in test_indice.py Coverage Results" MODIFIED="1600881647895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/aperitivos/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_modulo_detalhe_test_aulas_link.coverage" NAME="pytest for test_modulo_detalhe.test_aulas_link Coverage Results" MODIFIED="1601436684993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/modulos/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_in_tests_py.coverage" NAME="pytest in test_video.py Coverage Results" MODIFIED="1600418823176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/aperitivos" />
+    <SUITE FILE_PATH="coverage/curso_django$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1601924627411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_in_test_home_py.coverage" NAME="pytest in test_home.py Coverage Results" MODIFIED="1600418837188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_in_test_video_py.coverage" NAME="pytest in test_video.py Coverage Results" MODIFIED="1600877322329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/aperitivos/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_in_test_aba_de_modulos_py.coverage" NAME="pytest in test_aba_de_modulos.py Coverage Results" MODIFIED="1600965855294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/modulos/tests" />
@@ -942,6 +945,7 @@
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_aba_de_modulos_test_link_dos_modulos.coverage" NAME="pytest for test_aba_de_modulos.test_link_dos_modulos Coverage Results" MODIFIED="1601344890035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/modulos/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_status_code.coverage" NAME="pytest for test_home.test_status_code Coverage Results" MODIFIED="1600142480578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_tests_test_status_code.coverage" NAME="pytest for tests.test_status_code Coverage Results" MODIFIED="1600322831229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/aperitivos" />
+    <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_login_test_login_redirect.coverage" NAME="pytest for test_login.test_login_redirect Coverage Results" MODIFIED="1601925137929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
   </component>
   <component name="masterDetails">
     <states>
