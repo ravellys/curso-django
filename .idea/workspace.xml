@@ -91,7 +91,7 @@
       <recent name="C:\Users\ravellys\PycharmProjects\curso-django\pypro\base\templates\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.django">
+  <component name="RunManager" selected="Python tests.pytest migrations ">
     <configuration name="django" type="Python.DjangoServer" factoryName="Django server">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -391,14 +391,7 @@
       <workItem from="1602197556294" duration="6356000" />
       <workItem from="1602287051702" duration="564000" />
       <workItem from="1602315216355" duration="46000" />
-      <workItem from="1602474965837" duration="3373000" />
-    </task>
-    <task id="LOCAL-00004" summary="created pyup' badges">
-      <created>1599702703863</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1599702703863</updated>
+      <workItem from="1602474965837" duration="3709000" />
     </task>
     <task id="LOCAL-00005" summary="start project pypro">
       <created>1599704935602</created>
@@ -736,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601959281134</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Autenticação de Usuários">
+      <created>1602480279899</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1602480279899</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -744,7 +744,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="up" />
     <MESSAGE value="criada a infra de test com pytest-django" />
     <MESSAGE value="corrigido pytest-django para versao dev" />
     <MESSAGE value="Integrando Cobertura de Testes" />
@@ -769,7 +768,8 @@
     <MESSAGE value="." />
     <MESSAGE value="BD" />
     <MESSAGE value="test login" />
-    <option name="LAST_COMMIT_MESSAGE" value="test login" />
+    <MESSAGE value="Autenticação de Usuários" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autenticação de Usuários" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="35" key="#Docker" timestamp="1600492875229">
@@ -800,10 +800,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="452" y="181" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1600850331061" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1601959270975">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1602480270182">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601959270975" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602480270182" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1600276228280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -868,10 +868,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790764613" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601959299216">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602480334353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601959299216" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602480334353" />
     <state x="581" y="224" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1600849517724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -934,7 +934,7 @@
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_home_link.coverage" NAME="pytest for test_home.test_home_link Coverage Results" MODIFIED="1600230729699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_in_tests.coverage" NAME="pytest in tests Coverage Results" MODIFIED="1601696030121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/turma/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_in_tests__1_.coverage" NAME="pytest in tests (1) Coverage Results" MODIFIED="1600413561112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/aperitivos/tests" />
-    <SUITE FILE_PATH="coverage/curso_django$pytest_migrations_.coverage" NAME="pytest migrations  Coverage Results" MODIFIED="1602201636713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/curso_django$pytest_migrations_.coverage" NAME="pytest migrations  Coverage Results" MODIFIED="1602480354941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_login_test_botao_entrar_disponivel.coverage" NAME="pytest for test_login.test_botao_entrar_disponivel Coverage Results" MODIFIED="1601962337095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_login_test_botao_entrar_indisponivel.coverage" NAME="pytest for test_login.test_botao_entrar_indisponivel Coverage Results" MODIFIED="1602033037530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
     <SUITE FILE_PATH="coverage/curso_django$pytest_for_tests_test_title_video.coverage" NAME="pytest for tests.test_title_video Coverage Results" MODIFIED="1600323791941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/aperitivos" />
