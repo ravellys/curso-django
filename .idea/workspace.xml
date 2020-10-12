@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71811b43-7131-4c19-8a6b-d4fe50d5ff60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pypro/base/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/django_assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/django_assertions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/templates/modulos/aula_detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/aula_detalhe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalhe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,14 +379,7 @@
       <workItem from="1602197556294" duration="6356000" />
       <workItem from="1602287051702" duration="564000" />
       <workItem from="1602315216355" duration="46000" />
-      <workItem from="1602474965837" duration="3709000" />
-    </task>
-    <task id="LOCAL-00005" summary="start project pypro">
-      <created>1599704935602</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1599704935602</updated>
+      <workItem from="1602474965837" duration="5597000" />
     </task>
     <task id="LOCAL-00006" summary="criados arquivos para deploy do heroku">
       <created>1599706839047</created>
@@ -736,7 +717,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602480279899</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Autenticação de Usuários">
+      <created>1602480618869</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1602480618869</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -800,10 +788,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="452" y="181" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1600850331061" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1602480270182">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1602480614851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602480270182" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602480614851" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1600276228280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -816,22 +804,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600858435746" />
-    <state width="441" height="325" key="GridCell.Tab.0.bottom" timestamp="1602478874125">
+    <state width="1323" height="346" key="GridCell.Tab.0.bottom" timestamp="1602480527804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="441" height="325" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602478874125" />
-    <state width="441" height="325" key="GridCell.Tab.0.center" timestamp="1602478874125">
+    <state width="1323" height="346" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602480527804" />
+    <state width="1323" height="346" key="GridCell.Tab.0.center" timestamp="1602480527803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="441" height="325" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602478874125" />
-    <state width="441" height="325" key="GridCell.Tab.0.left" timestamp="1602478874124">
+    <state width="1323" height="346" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602480527803" />
+    <state width="1323" height="346" key="GridCell.Tab.0.left" timestamp="1602480527803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="441" height="325" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602478874124" />
-    <state width="441" height="325" key="GridCell.Tab.0.right" timestamp="1602478874125">
+    <state width="1323" height="346" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602480527803" />
+    <state width="1323" height="346" key="GridCell.Tab.0.right" timestamp="1602480527803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="441" height="325" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602478874125" />
+    <state width="1323" height="346" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602480527803" />
     <state width="1323" height="70" key="GridCell.Tab.1.bottom" timestamp="1601937633214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -868,10 +856,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790764613" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602480334353">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602480622460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602480334353" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602480622460" />
     <state x="581" y="224" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1600849517724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
