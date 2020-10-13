@@ -315,13 +315,13 @@
     </configuration>
     <list>
       <item itemvalue="Django Server.django" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.database: Compose Deployment" />
       <item itemvalue="Python tests.pytest migrations " />
       <item itemvalue="Python tests.pytest no migrations" />
       <item itemvalue="Python tests.pytest in test_login.py" />
       <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
       <item itemvalue="Python tests.pytest for test_aula_detalhe.teste_sem_usuario_logado" />
-      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-      <item itemvalue="Docker.docker-compose.yml.database: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
@@ -379,14 +379,8 @@
       <workItem from="1602197556294" duration="6356000" />
       <workItem from="1602287051702" duration="564000" />
       <workItem from="1602315216355" duration="46000" />
-      <workItem from="1602474965837" duration="5597000" />
-    </task>
-    <task id="LOCAL-00006" summary="criados arquivos para deploy do heroku">
-      <created>1599706839047</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1599706839047</updated>
+      <workItem from="1602474965837" duration="7520000" />
+      <workItem from="1602533183264" duration="588000" />
     </task>
     <task id="LOCAL-00007" summary="acrescentando endereço do heroku">
       <created>1599709953911</created>
@@ -724,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602480618869</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Autenticação de Usuários">
+      <created>1602482870283</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1602482870283</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -788,10 +789,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="452" y="181" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1600850331061" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1602480614851">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1602482866507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602480614851" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602482866507" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1600276228280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -804,22 +805,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600858435746" />
-    <state width="1323" height="346" key="GridCell.Tab.0.bottom" timestamp="1602480527804">
+    <state width="1323" height="346" key="GridCell.Tab.0.bottom" timestamp="1602484708993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="346" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602480527804" />
-    <state width="1323" height="346" key="GridCell.Tab.0.center" timestamp="1602480527803">
+    <state width="1323" height="346" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602484708993" />
+    <state width="1323" height="346" key="GridCell.Tab.0.center" timestamp="1602484708993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="346" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602480527803" />
-    <state width="1323" height="346" key="GridCell.Tab.0.left" timestamp="1602480527803">
+    <state width="1323" height="346" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602484708993" />
+    <state width="1323" height="346" key="GridCell.Tab.0.left" timestamp="1602484708993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="346" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602480527803" />
-    <state width="1323" height="346" key="GridCell.Tab.0.right" timestamp="1602480527803">
+    <state width="1323" height="346" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602484708993" />
+    <state width="1323" height="346" key="GridCell.Tab.0.right" timestamp="1602484708993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="346" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602480527803" />
+    <state width="1323" height="346" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602484708993" />
     <state width="1323" height="70" key="GridCell.Tab.1.bottom" timestamp="1601937633214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -856,10 +857,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599790764613" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602480622460">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602482879953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602480622460" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602482879953" />
     <state x="581" y="224" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1600849517724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
